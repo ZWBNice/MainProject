@@ -59,6 +59,8 @@ class ViewController: UIViewController {
         print("搜索点击")
         NetCore().request()
         NetCore().openRequest()
+        NetCore().openRequest5()
+
         let vc = HomeViewController()
         vc.modalPresentationStyle = .fullScreen
         self.present(vc, animated: true, completion: nil)

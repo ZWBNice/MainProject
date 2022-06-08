@@ -19,8 +19,8 @@
 		9A4CD3F5284F25ED00A4D4D1 /* ModularizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4CD3F4284F25ED00A4D4D1 /* ModularizationTests.swift */; };
 		9A4CD3FF284F25ED00A4D4D1 /* ModularizationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4CD3FE284F25ED00A4D4D1 /* ModularizationUITests.swift */; };
 		9A4CD401284F25ED00A4D4D1 /* ModularizationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4CD400284F25ED00A4D4D1 /* ModularizationUITestsLaunchTests.swift */; };
-		9A4CD52C284F421D00A4D4D1 /* HomeModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4CD52B284F421D00A4D4D1 /* HomeModule.framework */; };
-		9A4CD6222850395500A4D4D1 /* NetCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4CD6212850395500A4D4D1 /* NetCore.framework */; };
+		9A795F0E285076DE00C87835 /* HomeModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A795F0D285076DE00C87835 /* HomeModule.framework */; };
+		9A795F12285076E500C87835 /* NetCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A795F11285076E500C87835 /* NetCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +68,8 @@
 		9A4CD52B284F421D00A4D4D1 /* HomeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HomeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4CD52D284F422100A4D4D1 /* NetCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NetCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4CD6212850395500A4D4D1 /* NetCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NetCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A795F0D285076DE00C87835 /* HomeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HomeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A795F11285076E500C87835 /* NetCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NetCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E2B7C571BC019C376906410 /* Pods_Modularization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Modularization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC236187361F2453F176B42 /* Pods-ModularizationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModularizationUITests.debug.xcconfig"; path = "Target Support Files/Pods-ModularizationUITests/Pods-ModularizationUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		ECAA699BA334964C1620BB73 /* Pods-ModularizationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModularizationTests.release.xcconfig"; path = "Target Support Files/Pods-ModularizationTests/Pods-ModularizationTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -80,9 +82,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A4CD6222850395500A4D4D1 /* NetCore.framework in Frameworks */,
-				9A4CD52C284F421D00A4D4D1 /* HomeModule.framework in Frameworks */,
 				44E4AA78BA51E2EA21298A07 /* Pods_Modularization.framework in Frameworks */,
+				9A795F0E285076DE00C87835 /* HomeModule.framework in Frameworks */,
+				9A795F12285076E500C87835 /* NetCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +178,8 @@
 		E1F53E7CDCA35363CEE3E527 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9A795F11285076E500C87835 /* NetCore.framework */,
+				9A795F0D285076DE00C87835 /* HomeModule.framework */,
 				9A4CD6212850395500A4D4D1 /* NetCore.framework */,
 				9A4CD52D284F422100A4D4D1 /* NetCore.framework */,
 				9A4CD52B284F421D00A4D4D1 /* HomeModule.framework */,
