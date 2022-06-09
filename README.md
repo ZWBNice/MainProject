@@ -1,7 +1,7 @@
 # MainProject
 主工程
 
-##安装步骤
+## 安装步骤
 
 git submodule init
 
