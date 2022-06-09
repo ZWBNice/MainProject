@@ -1,8 +1,10 @@
 # MainProject
 主工程
 
+##安装步骤
 
 git submodule init
+
 git submodule update
 
 更新子模块代码
